@@ -1,0 +1,135 @@
+[
+ {
+  "node": "d1339531-b008-4368-9889-105eb3d4db2c",
+  "parentTab": "id_1686638120032_0",
+  "group": 1686637931271,
+  "mode": {
+   "current": "",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1693539807876_1",
+       "list": [
+        {
+         "id": "id_1693469084872_1",
+         "value": 0
+        }
+       ]
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    }
+   ],
+   "name": "A2DP_RX4"
+  }
+ },
+ {
+  "node": "3aeff979-307c-44e6-aa40-a82e78b658bc",
+  "parentTab": "id_1686638120032_0",
+  "group": 1686637931271,
+  "mode": {
+   "current": "",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1681280938229_0",
+       "value": 0
+      },
+      {
+       "id": "id_1676447481291_4",
+       "value": 16
+      },
+      {
+       "id": "id_1676447941026_6",
+       "value": -45
+      },
+      {
+       "id": "id_1678088452701_0",
+       "value": 1
+      },
+      {
+       "id": "id_1677290960342_0",
+       "value": 0
+      },
+      {
+       "id": "id_1676801188975_0",
+       "value": 10
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    }
+   ],
+   "name": "Vol_BtdMusic"
+  }
+ },
+ {
+  "node": "44d799db-f4c2-4f6d-8e75-2ce4c1b68a25",
+  "parentTab": "id_1686638120032_0",
+  "group": 1686637931271,
+  "mode": {
+   "current": "",
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1693539807876_1",
+       "list": [
+        {
+         "id": "id_1693469084872_1",
+         "value": 1
+        }
+       ]
+      }
+     ],
+     "enable": true
+    }
+   ],
+   "name": "config4235811"
+  }
+ },
+ {
+  "node": "ab3a1867-519d-4f6b-80aa-1528318a8c96",
+  "parentTab": "id_1686638120032_0",
+  "group": 1686637931271,
+  "mode": {
+   "current": "",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1678246437678_10",
+       "list": [
+        {
+         "id": "id_1677642341249_0",
+         "value": 50
+        },
+        {
+         "id": "id_1677642343355_1",
+         "value": 8
+        },
+        {
+         "id": "id_1677642344547_2",
+         "value": 0
+        }
+       ]
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    }
+   ],
+   "name": "DAC6"
+  }
+ }
+]

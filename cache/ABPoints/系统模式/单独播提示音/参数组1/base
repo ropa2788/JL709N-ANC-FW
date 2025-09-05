@@ -1,0 +1,331 @@
+[
+ {
+  "node": "7e7a05f5-3a4d-43fb-a4a2-bea6eedf59bd",
+  "parentTab": "id_1677549518737_0",
+  "group": 1652666280629,
+  "mode": {
+   "current": "",
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1693539807876_1",
+       "list": [
+        {
+         "id": "id_1693469084872_1",
+         "value": 1
+        }
+       ]
+      }
+     ],
+     "enable": true
+    }
+   ],
+   "name": "config423581"
+  }
+ },
+ {
+  "node": "fa6e2a61-9864-4973-be3c-294d1b5feb55",
+  "parentTab": "id_1677549518737_0",
+  "group": 1652666280629,
+  "mode": {
+   "current": "arg0",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1676447331464_3",
+       "list": [
+        {
+         "id": "id_1681280938229_0",
+         "value": 0
+        },
+        {
+         "id": "id_1676447481291_4",
+         "value": 16
+        },
+        {
+         "id": "id_1676447941026_6",
+         "value": -45
+        },
+        {
+         "id": "id_1678088452701_0",
+         "value": 1
+        },
+        {
+         "id": "id_1677290960342_0",
+         "value": 0
+        },
+        {
+         "id": "id_1690535811640_0",
+         "value": 16
+        },
+        {
+         "id": "id_1676801188975_0",
+         "value": 16
+        }
+       ]
+      },
+      {
+       "id": "id_1677751149521_1",
+       "list": []
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    }
+   ],
+   "name": "Vol_SysTone"
+  }
+ },
+ {
+  "node": "ecfcab75-fe7e-49c0-ba6d-a249dea94b10",
+  "parentTab": "id_1677549518737_0",
+  "group": 1652666280629,
+  "mode": {
+   "current": "arg0",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1678246437678_10",
+       "list": [
+        {
+         "id": "id_1677642341249_0",
+         "value": 30
+        },
+        {
+         "id": "id_1677642343355_1",
+         "value": 8
+        },
+        {
+         "id": "id_1677642344547_2",
+         "value": 0
+        }
+       ]
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    }
+   ],
+   "name": "DAC1"
+  }
+ },
+ {
+  "node": "59e2f9b0-59e1-47d0-9c9b-a81d57dcca91",
+  "parentTab": "id_1677549518737_0",
+  "group": 1652666280629,
+  "mode": {
+   "current": "arg0",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1676447331464_3",
+       "list": [
+        {
+         "id": "id_1681280938229_0",
+         "value": 0
+        },
+        {
+         "id": "id_1676447481291_4",
+         "value": 16
+        },
+        {
+         "id": "id_1676447941026_6",
+         "value": -45
+        },
+        {
+         "id": "id_1678088452701_0",
+         "value": 1
+        },
+        {
+         "id": "id_1677290960342_0",
+         "value": 0
+        },
+        {
+         "id": "id_1690535811640_0",
+         "value": 16
+        },
+        {
+         "id": "id_1676801188975_0",
+         "value": 16
+        }
+       ]
+      },
+      {
+       "id": "id_1677751149521_1",
+       "list": []
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    }
+   ],
+   "name": "Vol_SysKTone"
+  }
+ },
+ {
+  "node": "e3c55e17-0647-4c43-9e6a-1309dfbb030e",
+  "parentTab": "id_1677549518737_0",
+  "group": 1652666280629,
+  "mode": {
+   "current": "arg0",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1678246437678_10",
+       "list": [
+        {
+         "id": "id_1677642341249_0",
+         "value": 30
+        },
+        {
+         "id": "id_1677642343355_1",
+         "value": 8
+        },
+        {
+         "id": "id_1677642344547_2",
+         "value": 0
+        }
+       ]
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    }
+   ],
+   "name": "DAC19"
+  }
+ },
+ {
+  "node": "effb41ec-ea76-4355-b24c-0ed0c0bab2f5",
+  "parentTab": "id_1677549518737_0",
+  "group": 1652666280629,
+  "mode": {
+   "current": "",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1693539807876_1",
+       "list": [
+        {
+         "id": "id_1693469084872_1",
+         "value": 1
+        }
+       ]
+      }
+     ],
+     "enable": true
+    }
+   ],
+   "name": "config423582"
+  }
+ },
+ {
+  "node": "2d0aec8e-fb97-4e8a-b722-7d8ef90fdc57",
+  "parentTab": "id_1677549518737_0",
+  "group": 1652666280629,
+  "mode": {
+   "current": "arg0",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1676447331464_3",
+       "list": [
+        {
+         "id": "id_1681280938229_0",
+         "value": 0
+        },
+        {
+         "id": "id_1676447481291_4",
+         "value": 16
+        },
+        {
+         "id": "id_1676447941026_6",
+         "value": -45
+        },
+        {
+         "id": "id_1678088452701_0",
+         "value": 1
+        },
+        {
+         "id": "id_1677290960342_0",
+         "value": 0
+        },
+        {
+         "id": "id_1690535811640_0",
+         "value": 16
+        },
+        {
+         "id": "id_1676801188975_0",
+         "value": 16
+        }
+       ]
+      },
+      {
+       "id": "id_1677751149521_1",
+       "list": []
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    }
+   ],
+   "name": "Vol_SysRing"
+  }
+ },
+ {
+  "node": "4dc0b96f-8a46-4aa7-90c8-022ede1259fa",
+  "parentTab": "id_1677549518737_0",
+  "group": 1652666280629,
+  "mode": {
+   "current": "arg0",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1678246437678_10",
+       "list": [
+        {
+         "id": "id_1677642341249_0",
+         "value": 30
+        },
+        {
+         "id": "id_1677642343355_1",
+         "value": 8
+        },
+        {
+         "id": "id_1677642344547_2",
+         "value": 0
+        }
+       ]
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    }
+   ],
+   "name": "DAC20"
+  }
+ }
+]

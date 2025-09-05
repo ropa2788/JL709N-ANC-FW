@@ -1,0 +1,266 @@
+[
+ {
+  "node": "0b1eacee-605f-414d-9f5a-4ca008bffbcc",
+  "parentTab": "id_1724121863746_1",
+  "group": "id_1724121863746_0",
+  "mode": {
+   "current": "arg0",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1693539807876_1",
+       "list": [
+        {
+         "id": "id_1693469084872_1",
+         "value": 0
+        }
+       ]
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    }
+   ],
+   "name": "A2DP_RX1"
+  }
+ },
+ {
+  "node": "a5780ccc-14ab-4c82-8dc0-c24ebd54f169",
+  "parentTab": "id_1724121863746_1",
+  "group": "id_1724121863746_0",
+  "mode": {
+   "current": "arg0",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1676447331464_3",
+       "list": [
+        {
+         "id": "id_1681280938229_0",
+         "value": 0
+        },
+        {
+         "id": "id_1676447481291_4",
+         "value": 16
+        },
+        {
+         "id": "id_1676447941026_6",
+         "value": -45
+        },
+        {
+         "id": "id_1678088452701_0",
+         "value": 1
+        },
+        {
+         "id": "id_1677290960342_0",
+         "value": 0
+        },
+        {
+         "id": "id_1690535811640_0",
+         "value": 16
+        },
+        {
+         "id": "id_1676801188975_0",
+         "value": 16
+        }
+       ]
+      },
+      {
+       "id": "id_1677751149521_1",
+       "list": []
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    }
+   ],
+   "name": "Vol_BtmMusic"
+  }
+ },
+ {
+  "node": "ff22aed7-327f-48b0-a91b-92f3cebd8246",
+  "parentTab": "id_1724121863746_1",
+  "group": "id_1724121863746_0",
+  "mode": {
+   "current": "arg0",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "enable": true,
+     "data": [
+      {
+       "id": 1675672290496,
+       "name": "1",
+       "CenterFrequency": 25,
+       "Gain": 0,
+       "QValue": 0.7,
+       "type": 2,
+       "fEnable": true
+      },
+      {
+       "id": 1675672290497,
+       "name": "2",
+       "CenterFrequency": 53,
+       "Gain": 0,
+       "QValue": 0.7,
+       "type": 2,
+       "fEnable": true
+      },
+      {
+       "id": 1675672290498,
+       "name": "3",
+       "CenterFrequency": 113,
+       "Gain": 0,
+       "QValue": 0.7,
+       "type": 2,
+       "fEnable": true
+      },
+      {
+       "id": 1675672290499,
+       "name": "4",
+       "CenterFrequency": 240,
+       "Gain": 0,
+       "QValue": 0.7,
+       "type": 2,
+       "fEnable": true
+      },
+      {
+       "id": 1675672290500,
+       "name": "5",
+       "CenterFrequency": 509,
+       "Gain": 0,
+       "QValue": 0.7,
+       "type": 2,
+       "fEnable": true
+      },
+      {
+       "id": 1675672290501,
+       "name": "6",
+       "CenterFrequency": 1082,
+       "Gain": 0,
+       "QValue": 0.7,
+       "type": 2,
+       "fEnable": true
+      },
+      {
+       "id": 1675672290502,
+       "name": "7",
+       "CenterFrequency": 2299,
+       "Gain": 0,
+       "QValue": 0.7,
+       "type": 2,
+       "fEnable": true
+      },
+      {
+       "id": 1675672290503,
+       "name": "8",
+       "CenterFrequency": 4885,
+       "Gain": 0,
+       "QValue": 0.7,
+       "type": 2,
+       "fEnable": true
+      },
+      {
+       "id": 1675672290504,
+       "name": "9",
+       "CenterFrequency": 10378,
+       "Gain": 0,
+       "QValue": 0.7,
+       "type": 2,
+       "fEnable": true
+      },
+      {
+       "id": 1675672290505,
+       "name": "10",
+       "CenterFrequency": 22050,
+       "Gain": 0,
+       "QValue": 0.7,
+       "type": 2,
+       "fEnable": true
+      }
+     ],
+     "size": 10,
+     "gain": 0,
+     "range": 20,
+     "bypass": false
+    }
+   ],
+   "name": "MusicEqBt"
+  }
+ },
+ {
+  "node": "e7fb11d2-6e84-4887-bd16-1d4a7d409d08",
+  "parentTab": "id_1724121863746_1",
+  "group": "id_1724121863746_0",
+  "mode": {
+   "current": "arg0",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1693539807876_1",
+       "list": [
+        {
+         "id": "id_1693469084872_1",
+         "value": 1
+        },
+        {
+         "id": "id_1716965372533_1",
+         "value": 0
+        }
+       ]
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    }
+   ],
+   "name": "config423583"
+  }
+ },
+ {
+  "node": "9cea705c-f3e8-41af-865f-433c12402357",
+  "parentTab": "id_1724121863746_1",
+  "group": "id_1724121863746_0",
+  "mode": {
+   "current": "arg0",
+   "bypass": false,
+   "list": [
+    {
+     "name": "arg0",
+     "data": [
+      {
+       "id": "id_1678246437678_10",
+       "list": [
+        {
+         "id": "id_1677642341249_0",
+         "value": 30
+        },
+        {
+         "id": "id_1677642343355_1",
+         "value": 8
+        },
+        {
+         "id": "id_1677642344547_2",
+         "value": 0
+        }
+       ]
+      }
+     ],
+     "enable": true,
+     "bypass": false
+    }
+   ],
+   "name": "DAC2"
+  }
+ }
+]

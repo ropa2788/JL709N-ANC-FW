@@ -1,0 +1,9 @@
+{
+ "lastCheckPatchTime": 1757068671683,
+ "compileBackup": {
+  "fwFormat": "%PROJECT_NAME%_%DATE%_%TIME%_%CHECKSUM%",
+  "fwBackup": true,
+  "ufwBackup": true,
+  "elfBackup": true
+ }
+}
