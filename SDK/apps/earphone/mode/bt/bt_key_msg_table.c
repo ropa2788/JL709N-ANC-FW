@@ -397,7 +397,7 @@ const struct key_remap_table bt_mode_key_table[] = {
 #endif
 #if TCFG_LP_TOUCH_KEY_ENABLE
     { .key_value = KEY_POWER,   .remap_func = bt_key_power_msg_remap },
-    { .key_value = KEY_SLIDER,  .remap_func = bt_key_slider_msg_remap },
+    // { .key_value = KEY_SLIDER,  .remap_func = bt_key_slider_msg_remap },
 #endif
 
 #if TCFG_ADKEY_ENABLE

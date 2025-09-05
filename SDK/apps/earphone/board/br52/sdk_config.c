@@ -10,15 +10,15 @@
 #if TCFG_BATTERY_CURVE_ENABLE
 const struct battery_curve g_battery_curve_table [] =  {
     {
-        .voltage = 3300,
+        .voltage = 3400,
         .percent = 0
     },
     {
-        .voltage = 3450,
+        .voltage = 3500,
         .percent = 5
     },
     {
-        .voltage = 3680,
+        .voltage = 3650,
         .percent = 10
     },
     {
@@ -62,13 +62,13 @@ const struct battery_curve g_battery_curve_table [] =  {
 
 #if TCFG_IO_CFG_AT_POWER_ON
 const struct gpio_cfg_item g_io_cfg_at_poweron [] =  {
-
+    
 };
 #endif // TCFG_IO_CFG_AT_POWER_ON
 
 #if TCFG_IO_CFG_AT_POWER_OFF
 const struct gpio_cfg_item g_io_cfg_at_poweroff [] =  {
-
+    
 };
 #endif // TCFG_IO_CFG_AT_POWER_OFF
 
@@ -78,7 +78,7 @@ const struct iokey_info g_iokey_info [] =  {
         .key_value = KEY_POWER,
         .key_io = IO_PORTB_01,
         .detect = 0,
-        .long_press_reset_enable = 1,
+        .long_press_reset_enable = 0,
         .long_press_reset_time = 8
     }
 };

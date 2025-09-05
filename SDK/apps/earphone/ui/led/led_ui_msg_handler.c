@@ -27,7 +27,7 @@ static int ui_battery_msg_handler(int *msg)
 {
     switch (msg[0]) {
     case BAT_MSG_CHARGE_START:
-        led_ui_set_state(LED_STA_RED_ON, DISP_CLEAR_OTHERS);
+        led_ui_set_state(LED_STA_BLUE_BREATHE, DISP_CLEAR_OTHERS);
         break;
     case BAT_MSG_CHARGE_FULL:
     case BAT_MSG_CHARGE_CLOSE:
@@ -67,21 +67,23 @@ static int ui_app_msg_handler(int *msg)
         // 超时自动关机
         if (msg[1] == POWEROFF_NORMAL ||
             msg[1] == POWEROFF_NORMAL_TWS) {
-            led_ui_set_state(LED_STA_RED_ON_1S, DISP_CLEAR_OTHERS);
+            led_ui_set_state(LED_STA_RED_ON_2S, DISP_CLEAR_OTHERS);
         }
         break;
     case APP_MSG_TWS_PAIRED:
     case APP_MSG_TWS_UNPAIRED:
         //tws配对状态
-        led_ui_set_state(LED_STA_BLUE_1S_FLASHS_3_TIMES, 0);
+        led_ui_set_state(LED_STA_RED_FAST_FLASH, 0);
         break;
     case APP_MSG_BT_IN_PAGE_MODE:
         // 开机回连手机状态
         log_info("APP_MSG_BT_IN_PAGE_MODE\n");
-        if (tws_api_get_role() == TWS_ROLE_MASTER) {
-            led_ui_set_state(LED_STA_BLUE_FAST_FLASH, 0);
-        } else {
-            led_ui_set_state(LED_STA_BLUE_ON, 0);
+        if (bt_get_total_connect_dev() == 0){
+            if (tws_api_get_role() == TWS_ROLE_MASTER) {
+                led_ui_set_state(LED_STA_BLUE_FAST_FLASH, 0);
+            } else {
+                led_ui_set_state(LED_STA_BLUE_FAST_FLASH, 0);
+            }
         }
         break;
     case APP_MSG_BT_IN_PAIRING_MODE:
@@ -92,7 +94,7 @@ static int ui_app_msg_handler(int *msg)
 #else
         if ((bt_get_total_connect_dev() == 0) && !app_var.goto_poweroff_flag) {
 #endif
-            led_ui_set_state(LED_STA_BLUE_FLASH_1TIMES_PER_1S, DISP_TWS_SYNC);
+            led_ui_set_state(LED_STA_BLUE_FAST_FLASH, 0);
         }
         break;
     }
@@ -123,24 +125,24 @@ static int ui_bt_stack_msg_handler(int *msg)
     case BT_STATUS_A2DP_MEDIA_START:
     case BT_STATUS_PHONE_ACTIVE:
     case BT_STATUS_PHONE_HANGUP:
-        led_ui_set_state(LED_STA_ALL_OFF, DISP_TWS_SYNC);
+        // led_ui_set_state(LED_STA_ALL_OFF, DISP_TWS_SYNC);
         break;
     case BT_STATUS_PHONE_INCOME:
         // 来电
-        if (!esco_player_runing()) {
-            led_ui_set_state(LED_STA_BLUE_FAST_FLASH, DISP_TWS_SYNC);
-        }
+        // if (!esco_player_runing()) {
+        //     led_ui_set_state(LED_STA_BLUE_FAST_FLASH, DISP_TWS_SYNC);
+        // }
         break;
     case BT_STATUS_SCO_CONNECTION_REQ:
-        u8 call_status = bt_get_call_status_for_addr(bt->args);
-        if (call_status == BT_CALL_INCOMING) {
-            // 来电
-            if (!esco_player_runing()) {
-                led_ui_set_state(LED_STA_BLUE_FAST_FLASH, DISP_TWS_SYNC);
-            }
-        } else if (call_status == BT_CALL_OUTGOING) {
+        // u8 call_status = bt_get_call_status_for_addr(bt->args);
+        // if (call_status == BT_CALL_INCOMING) {
+        //     // 来电
+        //     if (!esco_player_runing()) {
+        //         led_ui_set_state(LED_STA_BLUE_FAST_FLASH, DISP_TWS_SYNC);
+        //     }
+        // } else if (call_status == BT_CALL_OUTGOING) {
 
-        }
+        // }
         break;
     case BT_STATUS_A2DP_MEDIA_STOP:
         break;

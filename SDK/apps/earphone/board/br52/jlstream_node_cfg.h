@@ -41,8 +41,8 @@
 #define TCFG_AUDIO_CVP_DMS_FLEXIBLE_ANS_MODE 0 // 话务双MIC通话
 #define TCFG_AUDIO_CVP_DMS_FLEXIBLE_DNS_MODE 0 // 话务双MIC+DNS
 #define TCFG_AUDIO_CVP_DMS_HYBRID_DNS_MODE 0 // HYBRID双MIC+DNS
-#define TCFG_AUDIO_CVP_SMS_ANS_MODE 1 // 单MIC通话
-#define TCFG_AUDIO_CVP_SMS_DNS_MODE 0 // 单MIC+DNS
+#define TCFG_AUDIO_CVP_SMS_ANS_MODE 0 // 单MIC通话
+#define TCFG_AUDIO_CVP_SMS_DNS_MODE 1 // 单MIC+DNS
 #define TCFG_AUTO_WAH_NODE_ENABLE 0 // Auto Wah
 #define TCFG_AUTODUCK_NODE_ENABLE 0 // AutoDuck Trigger、AutoDuck
 #define TCFG_AUTOMUTE_NODE_ENABLE 0 // automute
@@ -278,7 +278,7 @@
 // ------------流程图节点位宽定义------------
 
 // ------------流程图EQ节点类型宏定义------------
-#define EQ_CFG_TYPE_HIGH_PASS 1 // High Pass
+#define EQ_CFG_TYPE_HIGH_PASS 0 // High Pass
 #define EQ_CFG_TYPE_LOW_PASS 0 // Low Pass
 #define EQ_CFG_TYPE_PEAKING 1 // Peaking
 #define EQ_CFG_TYPE_HIGH_SHELF 0 // High Shelf
@@ -289,4 +289,3 @@
 #define EQ_CFG_TYPE_LP 0 // Lp
 // ------------流程图EQ节点类型宏定义------------
 #endif
-

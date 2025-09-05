@@ -52,9 +52,9 @@ const struct led_platform_data  led_red_on_config = {
 const struct led_platform_data  led_red_on_1s_config = {
     .ctl_option = CTL_LED0_ONLY,
     .ctl_mode = CYCLE_ONCE_BRIGHT,
-    .ctl_cycle = 21,//*50 =1050
+    .ctl_cycle = 41,//*50 =1050
     .ctl_cycle_num = 1,
-    .once_bright.bright_time = 20,//*50=1000
+    .once_bright.bright_time = 40,//*50=1000
     .cbfunc = pwm_led_hw_cbfunc,
 };
 
@@ -89,9 +89,9 @@ const struct led_platform_data led_red_slow_flash_config = {
 const struct led_platform_data led_red_fast_flash_config = {
     .ctl_option = CTL_LED0_ONLY,
     .ctl_mode = CYCLE_ONCE_BRIGHT,
-    .ctl_cycle = 10,//*50 =500
+    .ctl_cycle = 8,//*50 =500
     .ctl_cycle_num = 0,
-    .once_bright.bright_time = 2,//*50=100
+    .once_bright.bright_time = 8,//*50=100
 };
 
 //LED0 1s闪1次0.1s
@@ -175,9 +175,9 @@ const struct led_platform_data led_blue_on_config = {
 const struct led_platform_data led_blue_on_1s_config = {
     .ctl_option = CTL_LED1_ONLY,
     .ctl_mode = CYCLE_ONCE_BRIGHT,
-    .ctl_cycle = 21,//*50 =1050
+    .ctl_cycle = 41,//*50 =1050
     .ctl_cycle_num = 1,
-    .once_bright.bright_time = 20,//*50=1000
+    .once_bright.bright_time = 40,//*50=1000
     .cbfunc = pwm_led_hw_cbfunc,
 };
 
@@ -212,9 +212,9 @@ const struct led_platform_data led_blue_slow_flash_config = {
 const struct led_platform_data led_blue_fast_flash_config = {
     .ctl_option = CTL_LED1_ONLY,
     .ctl_mode = CYCLE_ONCE_BRIGHT,
-    .ctl_cycle = 10,//*50 =500
+    .ctl_cycle = 4,//*50 =500
     .ctl_cycle_num = 0,
-    .once_bright.bright_time = 2,//*50=100
+    .once_bright.bright_time = 4,//*50=100
 };
 
 //LED1 1s闪1次0.1s
