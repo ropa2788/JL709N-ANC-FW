@@ -376,7 +376,7 @@
 #define TCFG_AUDIO_DMS_GLOBAL_VERSION DMS_GLOBAL_V200 // 2micDNS算法选择
 #define TCFG_3MIC_MODE_SEL JLSP_3MIC_MODE2 // 3mic算法选择
 #define TCFG_MUSIC_PLC_TYPE 0 // PLC类型选择
-#define TCFG_AUDIO_DUT_ENABLE 0 // 音频/通话产测
+#define TCFG_AUDIO_DUT_ENABLE 1 // 音频/通话产测
 #define TCFG_AUDIO_MIC_ARRAY_TRIM_ENABLE 0 // 麦克风阵列校准
 #define TCFG_ANC_HAT_DUT 0 // JL自研ANC产测
 #define AUDIO_ENC_MPT_SELF_ENABLE 0 // JL自研ENC产测

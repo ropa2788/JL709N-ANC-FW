@@ -5430,7 +5430,7 @@
        "label": "音频/通话产测",
        "tag": "el-switch",
        "tagIcon": "switch",
-       "defaultValue": 0,
+       "defaultValue": 1,
        "span": 6,
        "showLabel": true,
        "labelWidth": 140,

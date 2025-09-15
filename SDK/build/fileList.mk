@@ -26,6 +26,12 @@ c_SRC_FILES += audio/framework/nodes/cvp_sms_node.c
 
 
 c_SRC_FILES += audio/framework/nodes/cvp_dms_node.c
+c_SRC_FILES += audio/test_tools/audio_dut_control.c audio/test_tools/audio_dut_control_old.c
+
+
+
+
+
 c_SRC_FILES += audio/common/audio_node_config.c audio/common/audio_dvol.c audio/common/audio_general.c audio/common/audio_build_needed.c audio/common/online_debug/aud_data_export.c audio/common/online_debug/audio_online_debug.c audio/common/online_debug/audio_capture.c audio/common/audio_plc.c audio/common/audio_noise_gate.c audio/common/audio_ns.c audio/common/audio_utils.c audio/common/audio_export_demo.c audio/common/amplitude_statistic.c audio/common/frame_length_adaptive.c audio/common/bt_audio_energy_detection.c audio/common/audio_event_handler.c audio/common/debug/audio_debug.c audio/common/power/mic_power_manager.c audio/common/audio_volume_mixer.c audio/common/audio_effect_verify.c audio/common/pcm_data/sine_pcm.c
 c_SRC_FILES += audio/common/demo/hw_math_v2_demo.c
 c_SRC_FILES += audio/interface/player/tone_player.c audio/interface/player/ring_player.c audio/interface/player/a2dp_player.c audio/interface/player/esco_player.c audio/interface/player/key_tone_player.c audio/interface/player/dev_flow_player.c audio/interface/player/adda_loop_player.c audio/interface/player/linein_player.c audio/interface/player/ai_rx_player.c
