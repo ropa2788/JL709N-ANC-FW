@@ -198,7 +198,7 @@
           "changeTag": true,
           "tag": "el-input",
           "tagIcon": "input",
-          "defaultValue": "earphone",
+          "defaultValue": "AMP-0330",
           "required": false,
           "layout": "colFormItem",
           "span": 7,
