@@ -1,9 +1,10 @@
 {
  "activeFile": {
-  "type": 1,
-  "fileName": "src\\蓝牙配置.json",
-  "binName": "btcfg.bin",
-  "showName": "蓝牙配置"
+  "type": 4,
+  "fileName": "src\\音频流程\\蓝牙通话.x6flow",
+  "binName": "stream.bin",
+  "showName": "蓝牙通话",
+  "data": ""
  },
  "currentVariant": {
   "name": ""
