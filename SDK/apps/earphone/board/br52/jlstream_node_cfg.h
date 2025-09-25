@@ -90,7 +90,7 @@
 #define TCFG_NOISEGATE_NODE_ENABLE 0 // NoiseGate
 #define TCFG_NOISEGATE_PRO_NODE_ENABLE 0 // NoiseGate Pro
 #define TCFG_NOTCH_HOWLING_NODE_ENABLE 0 // Howling Suppress
-#define TCFG_NS_NODE_ENABLE 0 // Noise Suppressor
+#define TCFG_NS_NODE_ENABLE 1 // Noise Suppressor
 #define TCFG_NS_NODE_LITE_ENABLE 0 // Noise Suppressor LITE
 #define TCFG_PCM_DELAY_NODE_ENABLE 0 // PCM Delay
 #define TCFG_PDM_NODE_ENABLE 0 // PDM MIC
@@ -164,7 +164,7 @@
 #define TCFG_AUDIO_EFX_CADC_RUN_MODE EFx_BW_16t16 // 铃声
 #define TCFG_AUDIO_EFX_8346_RUN_MODE EFx_BW_16t16 // 按键音
 #define TCFG_AUDIO_EFX_DFDA_RUN_MODE EFx_BW_UNUSED // AI_TX
-#define TCFG_AUDIO_EFX_3BC9_RUN_MODE EFx_BW_UNUSED // Noise Suppressor
+#define TCFG_AUDIO_EFX_3BC9_RUN_MODE EFx_BW_16t16 // Noise Suppressor
 #define TCFG_AUDIO_EFX_B0D5_RUN_MODE EFx_BW_UNUSED // Virtual Bass
 #define TCFG_AUDIO_EFX_A904_RUN_MODE EFx_BW_UNUSED // Gain
 #define TCFG_AUDIO_EFX_86B9_RUN_MODE EFx_BW_UNUSED // automute
@@ -282,7 +282,7 @@
 #define EQ_CFG_TYPE_LOW_PASS 0 // Low Pass
 #define EQ_CFG_TYPE_PEAKING 1 // Peaking
 #define EQ_CFG_TYPE_HIGH_SHELF 0 // High Shelf
-#define EQ_CFG_TYPE_LOW_SHELF 0 // Low Shelf
+#define EQ_CFG_TYPE_LOW_SHELF 1 // Low Shelf
 #define EQ_CFG_TYPE_HIGH_SHELF_Q 0 // High Shelf Q
 #define EQ_CFG_TYPE_LOW_SHELF_Q 0 // Low Shelf Q
 #define EQ_CFG_TYPE_HP 0 // Hp

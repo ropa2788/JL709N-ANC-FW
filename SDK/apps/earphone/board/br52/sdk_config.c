@@ -126,7 +126,7 @@ const struct touch_key_cfg lp_touch_key_table [] =  {
             {
                 .algo_cfg0 = 20,
                 .algo_cfg1 = 25,
-                .algo_cfg2 = 80,
+                .algo_cfg2 = 92,
                 .algo_range_min = 50,
                 .algo_range_max = 500,
                 .range_sensity = 6

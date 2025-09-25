@@ -2910,7 +2910,7 @@
                 "labelWidth": 100,
                 "tag": "el-input-number",
                 "tagIcon": "number",
-                "defaultValue": 80,
+                "defaultValue": 92,
                 "span": 8,
                 "layout": "colFormItem",
                 "required": false,

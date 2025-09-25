@@ -61,7 +61,7 @@
 #define TCFG_EXCEPTION_RESET_ENABLE 1 // 异常自动复位
 #endif // TCFG_DEBUG_UART_ENABLE
 
-#define TCFG_CFG_TOOL_ENABLE 1 // FW编辑、在线调音
+#define TCFG_CFG_TOOL_ENABLE 0 // FW编辑、在线调音
 #if TCFG_CFG_TOOL_ENABLE
 #define TCFG_ONLINE_TX_PORT IO_PORT_DP // 串口引脚TX
 #define TCFG_ONLINE_RX_PORT IO_PORT_DM // 串口引脚RX

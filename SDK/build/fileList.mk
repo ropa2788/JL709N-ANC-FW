@@ -21,6 +21,7 @@
 
 
 c_SRC_FILES += audio/framework/plugs/source/a2dp_file.c audio/framework/plugs/source/a2dp_streamctrl.c audio/framework/plugs/source/esco_file.c audio/framework/plugs/source/adc_file.c audio/framework/plugs/source/multi_ch_adc_file.c audio/framework/nodes/esco_tx_node.c audio/framework/nodes/plc_node.c audio/framework/nodes/volume_node.c
+c_SRC_FILES += audio/framework/nodes/ns_node.c
 c_SRC_FILES += audio/framework/nodes/cvp_dms_node.c
 c_SRC_FILES += audio/test_tools/audio_dut_control.c audio/test_tools/audio_dut_control_old.c
 
@@ -46,13 +47,6 @@ c_SRC_FILES += audio/interface/player/tws_tone_player.c
 c_SRC_FILES += audio/framework/plugs/source/linein_file.c
 c_SRC_FILES += audio/cpu/common.c
 c_SRC_FILES += apps/common/config/bt_profile_config.c
-
-
-
-
-
-c_SRC_FILES += apps/common/config/new_cfg_tool.c apps/common/config/cfg_tool_statistics_functions/cfg_tool_statistics.c
-c_SRC_FILES += apps/common/config/app_config.c
 c_SRC_FILES += apps/common/update/update.c apps/common/update/testbox_update.c apps/common/update/testbox_uart_update.c
 c_SRC_FILES += apps/common/ui/pwm_led/led_ui_api.c apps/common/ui/pwm_led/led_ui_tws_sync.c
 c_SRC_FILES += apps/common/third_party_profile/multi_protocol_common.c apps/common/third_party_profile/multi_protocol_event.c

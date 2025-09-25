@@ -1,10 +1,10 @@
 {
- "lastCheckPatchTime": 1758613263813,
+ "lastCheckPatchTime": 1758797205311,
  "compileBackup": {
   "fwFormat": "%PROJECT_NAME%_%DATE%_%TIME%_%CHECKSUM%",
   "fwBackup": true,
   "ufwBackup": true,
   "elfBackup": true
  },
- "flowAddonExpand": false
+ "flowAddonExpand": true
 }
